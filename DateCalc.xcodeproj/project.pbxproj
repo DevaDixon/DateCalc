@@ -14,6 +14,7 @@
 		5961B77E1BDF2278009D1E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961B77C1BDF2278009D1E78 /* LaunchScreen.storyboard */; };
 		5961B7891BDF2279009D1E78 /* DateCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961B7881BDF2279009D1E78 /* DateCalcTests.swift */; };
 		5961B7941BDF2279009D1E78 /* DateCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961B7931BDF2279009D1E78 /* DateCalcUITests.swift */; };
+		5961B7A21BDF2311009D1E78 /* DateChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961B7A11BDF2311009D1E78 /* DateChooserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5961B78F1BDF2279009D1E78 /* DateCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5961B7931BDF2279009D1E78 /* DateCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCalcUITests.swift; sourceTree = "<group>"; };
 		5961B7951BDF2279009D1E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5961B7A11BDF2311009D1E78 /* DateChooserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateChooserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5961B77A1BDF2278009D1E78 /* Assets.xcassets */,
 				5961B77C1BDF2278009D1E78 /* LaunchScreen.storyboard */,
 				5961B77F1BDF2278009D1E78 /* Info.plist */,
+				5961B7A11BDF2311009D1E78 /* DateChooserViewController.swift */,
 			);
 			path = DateCalc;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				5961B7761BDF2278009D1E78 /* ViewController.swift in Sources */,
 				5961B7741BDF2278009D1E78 /* AppDelegate.swift in Sources */,
+				5961B7A21BDF2311009D1E78 /* DateChooserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
